@@ -1,8 +1,13 @@
+package domainTests;
+
 import java.util.HashSet;
 
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import domain.Cell;
+import domain.Point2d;
 
 
 public class CellTests {

@@ -1,6 +1,11 @@
+package domainTests;
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import domain.Cell;
+import domain.Point2d;
+import domain.World;
 
 
 public class WorldTests {

@@ -1,6 +1,10 @@
+package domainTests;
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import domain.AsciiWorldManipulator;
+import domain.World;
 
 
 public class AsciiWorldManipulatorTests {
@@ -20,6 +24,5 @@ public class AsciiWorldManipulatorTests {
 		Assert.assertTrue(world.containsCellAt(1, 0));
 		Assert.assertTrue(world.containsCellAt(1, 1));
 		Assert.assertTrue(world.containsCellAt(1, 2));
-	}
-	
+	}	
 }
